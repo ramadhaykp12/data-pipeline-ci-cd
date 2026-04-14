@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Data Pipeline API is Running"}
+    return {"message": "Data Pipeline API is Running Successfully!"}
 
 @app.get("/run-etl")
 def trigger_etl():
